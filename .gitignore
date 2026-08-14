@@ -3,6 +3,8 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/allure-report/
+/allure-results/
 
 # Node dependencies
 node_modules/
