@@ -1,0 +1,43 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Playwright-specific test artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# System-specific browser binaries (if downloaded locally inside the project)
+.local-browsers/
+
+# Optional: Default boilerplate test files (if you want to discard them)
+tests-examples/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+

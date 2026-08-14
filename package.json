@@ -1,0 +1,24 @@
+{
+  "name": "playwriterestart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Sanity" : "npx playwright test --config playwright.customconfig.js --grep @Sanity --project chrome --reporter=\"line,allure-playwright\"",
+    "API": "npx playwright test --config playwright.customconfig.js --grep @API --project chrome --reporter=\"line,allure-playwright\"",
+    "FULL_SUITE" : "npx playwright test --config playwright.customconfig.js --project chrome --reporter=\"line,allure-playwright\"" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^25.6.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
