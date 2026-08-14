@@ -1,3 +1,0 @@
-iphone X
-Nokia Edge
-[ 'iphone X', 'Samsung Note 8', 'Nokia Edge', 'Blackberry' ]
