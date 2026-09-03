@@ -29,7 +29,7 @@ module.exports = defineConfig({
   // This is to select which browser we will run our test againsts . 
   use:{
     browserName:'chromium',
-    headless:true,
+    headless:false,
     // screenshot:'on',
     // trace:'on',
     // trace:'retain-on-failure'
