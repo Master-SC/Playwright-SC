@@ -3,7 +3,7 @@ import { POManager } from "../pageobjects/POManager";
 import dataset from '../test-data/TestDataSet1.json';
 
 
-test('@Sanity Order Place Flow', async ({ page }) => {
+test('Order Place Flow', async ({ page }) => {
 
     const poManager:POManager = new POManager(page)
     const loginPage = poManager.getLoginPage();
