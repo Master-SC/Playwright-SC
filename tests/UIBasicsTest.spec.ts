@@ -25,7 +25,7 @@ test('Second Playwright Test', async ({page})=>{
 });
 
 
-test("@Sanity Login Page Validation",async({page})=>{
+test("Login Page Validation",async({page})=>{
 
     const userName:Locator = page.locator("input#username");
     const passWord:Locator = page.locator("input[type='password']") 

@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
 import { POManager } from "../pageobjects/POManager";
-const dataset = JSON.parse(JSON.stringify(require('../test-data/TestDataSet1.json')))
+import dataset from '../test-data/TestDataSet1.json';
 
 
-test('Order Place Flow', async ({ page }) => {
+test('@Sanity Order Place Flow', async ({ page }) => {
 
     const poManager:POManager = new POManager(page)
     const loginPage = poManager.getLoginPage();
