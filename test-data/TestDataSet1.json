@@ -16,5 +16,6 @@
     "counponAppliedSuccessMsg": "* Coupon Applied",
     "shippingCountry": "united Kingdom",
     "successfulOrderMessage" : " Thankyou for the order. ",
-    "orderHistoryPageTItle": "Your Orders"
+    "orderHistoryPageTItle": "Your Orders",
+    "loginPageErrorMsg":"Incorrect email or password."
 }
