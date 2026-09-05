@@ -18,6 +18,8 @@ test-results/
 playwright-report/
 blob-report/
 playwright/.cache/
+*report.html
+screenshots/
 
 # System-specific browser binaries (if downloaded locally inside the project)
 .local-browsers/

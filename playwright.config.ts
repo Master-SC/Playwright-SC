@@ -15,9 +15,11 @@ module.exports = defineConfig({
 
   //Test Directory
   testDir: './tests',
+  testMatch: '**/*.spec.ts',
+  retries:0,
 
   //By Default Playwright wait for 30 secs if we want to overright that then we use this time out
-  timeout: 40*1000,
+  timeout: 50*1000,
   
   //This time out is used for assertions in project level. 
   expect:{
@@ -30,9 +32,8 @@ module.exports = defineConfig({
   use:{
     browserName:'chromium',
     headless:true,
-    // screenshot:'on',
-    // trace:'on',
-    // trace:'retain-on-failure'
+    screenshot:'on',
+    trace:'retain-on-failure'
   },
 
 
