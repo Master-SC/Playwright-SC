@@ -4,7 +4,7 @@ import { BrowserContext, expect,Locator,Page,test } from "@playwright/test";
 // test.describe.configure({mode:"parallel"}) // Make the Test run in Parallel
 // test.describe.configure({mode:"serial"}) // Used for interdependent test if one test fail rest will skipped. 
 
-test('First Playwright Test', async ({browser})=>{
+test('@Sanity First Playwright Test', async ({browser})=>{
 
     const context:BrowserContext = await browser.newContext();
     const page:Page=await context.newPage();
@@ -25,7 +25,7 @@ test('Second Playwright Test', async ({page})=>{
 });
 
 
-test("@Sanity Login Page Validation",async({page})=>{
+test("Login Page Validation",async({page})=>{
 
     const userName:Locator = page.locator("input#username");
     const passWord:Locator = page.locator("input[type='password']") 
